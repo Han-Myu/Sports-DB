@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailFavorit"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_TeamFav"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="Nama Team"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:background="#E91E63"
+            android:textSize="35dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/iv_TeamLogoFav"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_FormedYearFav"
+            android:layout_marginLeft="75px"
+            android:layout_marginRight="75px"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="left"
+            android:text="Formed Year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#E91E63"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_TeamDescFav"
+            android:layout_marginLeft="75px"
+            android:layout_marginRight="75px"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="Deskripsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#E91E63"
+            android:textSize="15dp"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_StadionFav"
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="Stadion"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:background="#E91E63"
+            android:textSize="35dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/iv_StadionImageFav"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_StadionLocationFav"
+            android:layout_marginLeft="75px"
+            android:layout_marginRight="75px"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#E91E63"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_StadionDescFav"
+            android:layout_marginLeft="75px"
+            android:layout_marginRight="75px"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="Deskripsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#E91E63"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="-Favourite Team-"
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:background="#E91E63"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
